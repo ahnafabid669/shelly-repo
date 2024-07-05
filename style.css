@@ -1,0 +1,42 @@
+div{
+    background-image: url( istockphoto-1499722823-170667a.webp);
+    height: 100vh;
+   
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+
+}
+div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+* {
+margin: 0;
+padding: 0;
+
+}
+div ul li a{
+    
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 30px;
+    
+  color: green;
+    padding: 5px;
+    
+    
+}
+div ul li a:hover{ 
+    border-bottom: 3px solid red;
+color: white;
+
+}
+.logo{
+    background-color: red;
+    
+}
+
